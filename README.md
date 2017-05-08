@@ -5,7 +5,7 @@ An ImageView that can be check/uncheck with materialized animation.
 [![](https://jitpack.io/v/Tornaco/CheckableImageView.svg)](https://jitpack.io/#Tornaco/CheckableImageView)
 
 # Sample code
-```
+```java
     final CheckableImageView checkableImageView = (CheckableImageView) findViewById(R.id.image_view);
         checkableImageView.setImageDrawable(ContextCompat.getDrawable(this, R.mipmap.ic_launcher_round));
 
