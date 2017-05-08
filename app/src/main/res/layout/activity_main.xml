@@ -26,25 +26,11 @@
 
         <tornaco.lib.widget.CheckableImageView
             android:id="@+id/image_view"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
-            android:layout_above="@+id/checkableImageButton"
-            android:layout_marginBottom="60dp"
-            android:layout_marginLeft="112dp"
-            android:layout_marginStart="112dp"
-            android:layout_toEndOf="@+id/checkableImageButton"
-            android:layout_toRightOf="@+id/checkableImageButton" />
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
 
-
-        <android.support.design.widget.CheckableImageButton
-            android:id="@+id/checkableImageButton"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
-            android:layout_alignLeft="@+id/message"
-            android:layout_alignParentBottom="true"
-            android:layout_alignStart="@+id/message"
-            android:layout_marginBottom="163dp"
-            android:src="@mipmap/ic_launcher" />
 
     </RelativeLayout>
 
